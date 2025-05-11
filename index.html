@@ -17,8 +17,14 @@
 
 <body>
       
-    <h2>Счетчик мест по кодам</h2>
+   <div class="flexparent">
+    <div class="flexitem">
+         <h2>Счетчик мест по кодам</h2>
     <p>Нажимай "+" или "-" рядом с нужным кодом для подсчета мест. Все данные сохраняются автоматически.</p>
+    </div>
+    <button  onclick="resetData()" style="background-color:#e74c3c; color:white; margin-left:10px;">Обнулитьвсё</button>
+           
+   </div> 
     <table id="counterTable">
         <thead>
             <tr>
@@ -33,8 +39,7 @@
 
     <div class="btns">
         <button  =  onclick="addRow()">Добавить новый код</button>
-        <button   onclick="resetData()" style="background-color:#e74c3c; color:white; margin-left:10px;">Обнулить
-            всё</button>
+        
     </div>
 
 
