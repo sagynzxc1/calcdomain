@@ -71,5 +71,16 @@
             }
             .plus{
                 font-size: 12px;
+                padding: 7px 20px;
+                margin-right: 11px;
             }
+            .delete{
+                font-size: 10px
+                ;
+               
+            }
+             .big{
+                    width: 300px;
+                }
+
         }

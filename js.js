@@ -21,13 +21,13 @@
                 const row = document.createElement("tr");
                 row.innerHTML = `
                     <td><input type="text" value="${item.code}" oninput="saveData()"></td>
-                    <td class="counter">${item.count}</td>
-                    <td>
+                    <td class="counter" >${item.count}</td>
+                    <td class="big" colspan=5>
         <button  class="plus" onclick="changeCount(this, 1)">+</button>
-        <button class="plus" onclick="changeCount(this, -1)">−</button>
+        <button onclick="changeCount(this, -1)">−</button>
     </td>
     <td>
-        <button onclick="deleteRow(this)" style="color:red;">Удалить</button>
+        <button class="delete" onclick="deleteRow(this)" style="color:red;">Удалить</button>
     </td>
                 `;
                 tableBody.appendChild(row);
