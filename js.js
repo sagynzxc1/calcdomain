@@ -48,7 +48,7 @@
             newRow.innerHTML = `
                 <td><input type="text" value="" oninput="saveData()"></td>
                 <td class="counter">0</td>
-                <td>
+                <td class="big" colspan='5'>
                     <button onclick="changeCount(this, 1)">+</button>
                     <button onclick="changeCount(this, -1)">−</button>
                 </td>
